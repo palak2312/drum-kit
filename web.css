@@ -1,0 +1,43 @@
+body{
+    background-image: url("image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0 ;
+    padding:0;
+}
+
+.keysnet{
+    height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.keys{
+    /* transform: scale(1.11); */
+    cursor: pointer;
+    border: 2px solid black;
+    background-color: brown;
+    font-size: x-large;
+    margin: 10px 10px;
+    margin-top: 10px;
+    padding: 10px 10px;
+    transition: all 0.07s;
+}
+kbd{
+    font-weight: 900;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sound{
+    font-weight: 900;
+}
+.playing{
+    transform: scale(1.11);
+    border: 2px solid yellow;
+}
